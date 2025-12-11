@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact Form</title>
+
+
+</head>
+<!-- Custom Modal -->
+<div id="customModal" class="modal">
+  <div class="modal-content">
+    <h3>Message Me</h3>
+    <p>Thanks for your understanding. Click OK and you will go to my Facebook page. When I am online, we will discuss.</p>
+    <button id="modalOk">OK</button>
+  </div>
+</div>
+
+<body>
+  <div class="carrier">
+
+    <h1 class="small-screen-navbar" style="padding-left: 1rem;">
+      <a href="small-screen-navbar.html"><img src="icon-hamburger.svg"></a>
+    </h1>
+
+    <header>
+      <div class="container container-flex">
+        <div class="site-title">
+          <div class="xyz-carrier">
+            <h2 class="xyz">XYZ</h2>
+          </div>
+          <h1 class="start">Living The Simple Life With Coding</h1>
+          <p class="start-2">I know it’s a way to <strong style="color: hsl(332, 51%, 32%);">earn</strong> money without stress</p>
+          <p class="subtitle">WEBSITE DEVELOPMENT.</p>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current-page">Home</a></li>
+            <li><a href="about me.html" class="aboutme">About me</a></li>
+            <li><a href="contact.html" class="contact">Contact</a></li>
+            <li><a href="Coding-note.docx" class="notes">View Notes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h2 style="color: aquamarine; text-align: center;">LOGIN FORM</h2>
+
+    <div class="myform">
+      <form id="myForm">
+        <input type="text" id="firstname" placeholder="Enter your First Name" required>
+        <input type="text" id="lastname" placeholder="Enter your Second Name" required>
+        <input type="text" id="thirdname" placeholder="Enter your Third Name" required>
+        <input type="number" id="number" placeholder="Enter your Phone Number" required>
+        <input type="email" id="gmail" placeholder="Enter your Gmail" required>
+        <input type="text" id="profession" placeholder="Profession" required>
+        <input type="text" id="address" placeholder="Enter your Address" required>
+        <input type="text" id="dob" placeholder="Enter your Date of Birth" required>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+
+      <hr>
+      <h2 style="color: deeppink;">Contact For:</h2>
+      <ol>
+        <li>Comment on the website</li>
+        <li>For Donations</li>
+        <li>Give me a job</li>
+        <li>Have a project you want us to work together on</li>
+      </ol>
+    </div>
+  </div>
+
+  
+    
+<script>
+  document.getElementById("myForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Message me on Messenger. Thanks for your understanding — click OK and you will go to my Facebook page. When I am online, we will discuss.");
+    window.location.href = "https://m.me/CoderackCodejungle";
+  });
+</script>
+
+  
+
+</body>
+</html>

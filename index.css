@@ -1,0 +1,269 @@
+ body {
+     font-family: Arial, sans-serif;
+     background: #f4e6dc;
+     margin: 0;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     scroll-behavior: smooth;
+     background-image: url(bg-desktop.svg);
+ }
+
+ .carrier {
+     background: #fff;
+     max-width: 600px;
+     border-radius: 12px;
+     overflow: hidden;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     background-image: url(bg-desktop.svg);
+
+ }
+
+
+ .xyz-carrier {
+     background: #1792d2;
+     margin-top: 3rem;
+     width: 120%;
+
+ }
+
+ .xyz-carrier>:hover {
+     background: #707070;
+ }
+
+ .xyz {
+     color: #f7f7f7;
+     letter-spacing: 10px;
+ }
+
+ .header>h1 {
+     font-family: "Lora", serif;
+     font-weight: 400;
+     color: #143774;
+     font-size: 2rem;
+     padding: 1em 0;
+ }
+
+ .subtitle {
+     font-weight: 700;
+     color: #1792d2;
+     font-size: 0.75rem;
+     margin: 0;
+ }
+
+
+ header {
+     display: flex;
+     text-align: center;
+     background: #f8f8f8;
+     padding: 2em 0;
+ }
+
+
+
+ nav ul {
+
+     list-style: none;
+     display: flex;
+
+     padding: 0;
+
+     justify-content: center;
+ }
+
+ nav li {
+     margin: 0 1em;
+ }
+
+ .small-screen-navbar {
+     visibility: hidden;
+     display: none;
+ }
+
+ nav a {
+     text-decoration: none;
+     color: #707070;
+     font-weight: 700;
+     padding: 0.25em 0;
+ }
+
+
+ nav a:hover,
+ nav a:focus {
+     color: #1792d2;
+     border-bottom: 2px solid #1792d2;
+ }
+
+
+ .current-page {
+     border-bottom: 2px solid #707070;
+ }
+
+
+ .current-page:hover,
+ .current-page:focus {
+     color: #707070;
+     border-bottom: 2px solid #707070;
+ }
+
+ .start {
+     margin-left: 2rem;
+ }
+
+
+ .inner-box {
+     border: 2px solid #1792d2;
+ }
+
+ .objective-div {
+     background: #1791d29c;
+     border-radius: 3%;
+     width: auto;
+     height: auto;
+     margin-top: 2rem;
+     color: #751111;
+ }
+
+ .objective-h1 {
+     padding: 1em 1em;
+     font-size: 100%;
+ }
+
+ .objective-p {
+     padding: 1em 1em;
+     margin-top: -1rem;
+ }
+
+ .info-title {
+     padding: 1em 1em;
+     margin-top: -1em;
+     color: darkorange;
+ }
+
+ .info-list {
+     margin-top: -1em;
+     color: #707070;
+     font-weight: bold;
+     opacity: 200%;
+     list-style: circle;
+ }
+
+ .text-education {
+     padding: 1em 1em;
+ }
+
+ .text-heading {
+     text-align: center;
+ }
+
+ .fresher {
+     padding: 1em 1em;
+ }
+
+ .activities-list {
+     line-height: 30px;
+ }
+
+ .bold-skills {
+     color: #1792d3;
+ }
+
+ .recent-text {
+     padding: 1em 1em;
+ }
+
+ .trainings-text {
+     line-height: 30px;
+ }
+
+ .skills-text {
+     line-height: 30px;
+ }
+
+ .intrest-text {
+     line-height: 30px;
+ }
+
+ .big-border {
+     border: 2px solid #1792d2;
+     border-style: dotted;
+     width: auto;
+     height: auto;
+     padding: 1em 1em;
+ }
+
+ .note {
+     text-align: center;
+     color: blueviolet;
+ }
+
+ .note-text {
+     line-height: 30px;
+ }
+
+ .myself {
+     line-height: 30px;
+     color: #707070;
+ }
+
+ .hope {
+     color: #1792d2;
+ }
+
+ .actually {
+     color: #1792d0;
+ }
+
+ @media (max-width:525px) and (min-width:310px) {
+
+     body {
+         padding: 0;
+         width: auto;
+         scroll-behavior: smooth;
+         background-image: url(bg-desktop.svg);
+         overflow-y: scroll;
+     }
+
+     .start {
+         position: absolute;
+         width: 95%;
+     }
+
+     .xyz-carrier {
+         margin-top: 3rem;
+     }
+
+     .start-2 {
+         text-align: center;
+         position: absolute;
+         padding-left: 3rem;
+         margin-top: 6rem;
+     }
+
+
+     .small-screen-navbar {
+         visibility: visible;
+         position: absolute;
+         margin-bottom: 5rem;
+         display: flex;
+
+     }
+
+     .current-page,
+     .aboutme,
+     .contact,
+     .notes,
+     .other {
+         visibility: hidden;
+     }
+
+     .objective-div {
+         margin-left: 1.5rem;
+         width: auto;
+     }
+
+
+
+
+
+ }
